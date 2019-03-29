@@ -10,4 +10,10 @@ export const Container = styled.div`
   height: 100vh;
   background: salmon;
   display: flex;
+  flex-direction: column;
+`;
+
+export const Header = styled.h1`
+  text-align: center;
+  width: 100%;
 `;

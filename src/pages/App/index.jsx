@@ -1,12 +1,14 @@
 import React from 'react';
-import { Main, Container } from './index.styled';
+import { Main, Container, Header } from './index.styled';
+import ImageChooser from '../../components/ImageChooser';
 
 const App = () => (
   <Main>
     <Container>
-      <header>
-        <h1>Which of these is a cat?</h1>
-      </header>
+      <Header>
+        Which of these is a cat?
+      </Header>
+      <ImageChooser />
     </Container>
   </Main>
 );
