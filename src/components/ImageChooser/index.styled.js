@@ -12,5 +12,6 @@ export const Image = styled.img`
   width: 280px;
   height: 280px;
   background-size: cover;
+  cursor: pointer;
   background-image: url(${props => images(`./${props.id}.jpg`)});
 `;
